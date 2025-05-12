@@ -1,6 +1,6 @@
 @-moz-document url("about:newtab"), url("about:home") {
   body {
-    background: url("./DSC_0214.jpg") no-repeat center center fixed !important;
+    background: url("./bg.jpg") no-repeat center center fixed !important;
     background-size: cover !important;
     margin: 0 !important;
     padding: 0 !important;
