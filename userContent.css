@@ -1,0 +1,17 @@
+@-moz-document url("about:newtab"), url("about:home") {
+  body {
+    background: url("./DSC_0214.jpg") no-repeat center center fixed !important;
+    background-size: cover !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .outer-wrapper, .search-wrapper, .top-sites-list, .logo-and-wordmark, .search-handoff-button, .snippet-container {
+    background: transparent !important;
+    backdrop-filter: blur(0px) !important;
+  }
+
+  .top-site-outer, .top-site-inner, .top-site-icon {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+  }
+}
