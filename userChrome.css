@@ -2,7 +2,12 @@
   margin: 0 !important;
   padding: 0 !important;
   border: none !important;
-  background: transparent !important;
+  background-image: url("./no_git_bg.jpg") !important;
+  background-size: cover !important;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  color: black;
 }
 
 #TabsToolbar {
@@ -11,4 +16,17 @@
   padding: 0 !important;
   height: 0 !important;
   min-height: 0 !important;
+  display: none;
+}
+
+/* Make toolbar icons (like back, forward, home, refresh, etc.) black */
+.toolbarbutton-icon {
+  fill: black !important;
+  color: black !important;
+}
+
+/* For buttons that use color via mask (like newer Firefox versions) */
+.toolbarbutton-animatable-box,
+.toolbarbutton-animatable-image {
+  filter: brightness(0) !important;
 }
